@@ -78,16 +78,6 @@ body .content nav a:nth-child(3):hover {
     color: var(--black-std);
 }
 
-body .content nav a:nth-child(4) {
-    background-color: var(--black-std);
-    color: var(--red-std);
-}
-
-body .content nav a:nth-child(4):hover {
-    background-color: var(--white-std);
-    color: var(--black-std);
-}
-
 body .content nav a p {
     font-size: 2vw;
     margin-top: 5vh;

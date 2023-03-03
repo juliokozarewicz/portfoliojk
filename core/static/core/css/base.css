@@ -1,3 +1,15 @@
+@import url("colors.css");
+
+@font-face {
+	font-family: 'adam-bold';
+	src: url('../fonts/adam-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'nexa-bold';
+	src: url('../fonts/nexa-bold.ttf') format('truetype');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -17,8 +29,8 @@ body .content {
     justify-content: end;
     width: 100%;
     height: 100%;
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 body .content nav {
@@ -26,7 +38,7 @@ body .content nav {
     height: 100%;
 }
 
-body .content nav button {
+body .content nav a {
     width: 4vw;
     height: 100%;
     border: none;
@@ -34,24 +46,55 @@ body .content nav button {
     display: flex;
     justify-content: center;
     text-align: start;
+    font-family: adam-bold;
 }
 
-body .content nav button p {
+body .content nav a:nth-child(1) {
+    background-color: var(--purple-std);
+}
+
+body .content nav a:nth-child(1):hover {
+    background-color: var(--white-std);
+    color: var(--black-std);
+}
+
+body .content nav a:nth-child(2) {
+    background-color: var(--yellow-std);
+    color: var(--black-std);
+}
+
+body .content nav a:nth-child(2):hover {
+    background-color: var(--white-std);
+    color: var(--black-std);
+}
+
+body .content nav a:nth-child(3) {
+    background-color: var(--red-std);
+    color: var(--purple-std);
+}
+
+body .content nav a:nth-child(3):hover {
+    background-color: var(--white-std);
+    color: var(--black-std);
+}
+
+body .content nav a:nth-child(4) {
+    background-color: var(--black-std);
+    color: var(--red-std);
+}
+
+body .content nav a:nth-child(4):hover {
+    background-color: var(--white-std);
+    color: var(--black-std);
+}
+
+body .content nav a p {
     font-size: 2vw;
     margin-top: 5vh;
     writing-mode: vertical-rl;
 }
 
-body .content .homediv {
+body .content .load-content {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/stars-fixed.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
 }
-
-
-
-

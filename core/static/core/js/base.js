@@ -1,6 +1,7 @@
 
 window.sessionStorage.clear();
 
+
 function loadPage(pg_load, id_replaced) {
     var pg_load = pg_load
     var id_replaced = id_replaced

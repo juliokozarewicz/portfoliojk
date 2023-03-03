@@ -1,0 +1,88 @@
+@import url("colors.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body .homediv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+body .homediv {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+body .homediv::before {
+    width: 100%;
+    height: 100vh;
+    content: "";
+    background-image: url("../images/stars-fixed.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    opacity: 40%;
+}
+
+body .homediv::after {
+    width: 20%;
+    height: 46vh;
+    content: "";
+    background-image: url("../images/splash-top.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: start;
+    background-position-y: start;
+    position: fixed;
+    top: 0vh;
+    left: 0vh;
+}
+
+body section .homediv .title {
+    font-size: 10vh;
+    font-family: nexa-bold;
+    position: fixed;
+    bottom: 22vh;
+    left: 20vh;
+}
+
+body section .homediv .sub-title {
+    font-size: 4vh;
+    font-family: adam-bold;
+    position: fixed;
+    bottom: 15vh;
+    left: 20vh;
+    color: var(--purple-std);
+}
+
+body section .homediv .meta-art {
+    font-size: 2.5vh;
+    font-family: adam-bold;
+    position: fixed;
+    bottom: 4vh;
+    left: 20vh;
+}
+
+
+
+
+
+

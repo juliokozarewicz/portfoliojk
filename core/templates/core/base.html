@@ -6,20 +6,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Art says the unspeakable; expresses the inexpressible, translates the untranslatable (Leonardo-da-Vinci)" />
+    <meta name="description" content="Art says the unspeakable; expresses the inexpressible, translates the untranslatable (Leonardo da Vinci)"/>
     <link rel="stylesheet" href="{% static '/core/css/base.css' %}">
 	<link rel="shortcut icon" type="image/x-icon" href="{% static '/core/images/favicon.png' %}">
 	<script src="{% static '/core/js/base.js' %}"></script>
 </head>
 
-<body onload="loadPage('home', 'homediv')">
+<body onload="new loadPage('home', 'id-load-content')">
     <section class="content">
-        <section class="homediv">xxx</section>
+        <section class="load-content" id="id-load-content"></section>
         <nav>
-            <button><p>about</p></button>
-            <button><p>portfolio</p></button>
-            <button><p>resume</p></button>
-            <button><p>contact</p></button>
+            <a><p>about</p></a>
+            <a><p>portfolio</p></a>
+            <a><p>resume</p></a>
+            <a><p>contact</p></a>
         </nav>
     </section>
 </body>

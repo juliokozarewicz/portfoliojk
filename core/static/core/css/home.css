@@ -20,7 +20,6 @@ body .homediv {
     width: 100%;
     height: 100%;
     background-color: var(--black);
-    color: var(--white);
 }
 
 body .homediv {
@@ -56,19 +55,51 @@ body .homediv::after {
     left: 0vh;
 }
 
-body section .homediv .title {
+body section .homediv .social {
+    width: 10vh;
+    height: 36vh;
     font-size: 10vh;
     font-family: nexa-bold;
     position: fixed;
-    bottom: 27vh;
+    bottom: 0vh;
+    left: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body section .homediv .social .linev-mid {
+    width: 0.3vh;
+    height: 7vh;
+    background-color: var(--purple-std);
+}
+
+body section .homediv .social .imgsocial {
+    height: 4vh;
+    cursor: pointer;
+}
+
+body section .homediv .social .linev-bottom {
+    width: 0.3vh;
+    height: 3vh;
+    background-color: var(--purple-std);
+}
+
+body section .homediv .title {
+    font-size: 8vh;
+    font-family: nexa-bold;
+    position: fixed;
+    bottom: 26.5vh;
     left: 20vh;
+    color: var(--white-std);
 }
 
 body section .homediv .sub-title {
-    font-size: 3.8vh;
+    font-size: 2.9vh;
     font-family: adam-bold;
     position: fixed;
-    bottom: 20vh;
+    bottom: 21vh;
     left: 20vh;
     color: var(--purple-std);
 }

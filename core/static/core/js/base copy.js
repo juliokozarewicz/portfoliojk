@@ -35,14 +35,18 @@ function unloadPage(pg_unload) {
 
 function paralax() {
 
-    document.addEventListener("mousemove", parallax);
-    function parallax(event) {
-    this.querySelectorAll(".paralax img").forEach((shift) => {
-        const position = shift.getAttribute("value");
-        const x = (window.innerWidth - event.pageX * position) / 90;
-        const y = (window.innerHeight - event.pageY * position) / 90;
+    console.log('*** PARALAX FUNCTION LOAD OK! ***')
 
-        shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
-    });
-    }
+    document.addEventListener("mousemove", paralax);
+        
+    function paralax(e) {
+        this.querySelectorAll('.layer').forEach(layer => {
+            const speed = layer.getAttribute('data-speed')
+
+            const x = (window.innerWidth - e.pageX*speed)/100
+            const y = (window.innerHeight - e.pageY*speed)/100
+
+            layer.style.transform = 'translateX(${x}px) translateY(${y}px)'
+            });
+        }
 }

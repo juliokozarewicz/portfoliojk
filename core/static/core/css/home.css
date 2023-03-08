@@ -38,21 +38,7 @@ body .homediv::before {
     background-position-x: center;
     background-position-y: center;
     position: absolute;
-    opacity: 40%;
-}
-
-body .homediv::after {
-    width: 22%;
-    height: 46vh;
-    content: "";
-    background-image: url("../images/splash-top.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: start;
-    background-position-y: start;
-    position: fixed;
-    top: 0vh;
-    left: 0vh;
+    opacity: 30%;
 }
 
 body section .homediv .social {

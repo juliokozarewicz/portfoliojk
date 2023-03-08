@@ -1,98 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="368.313mm" height="230.073mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 36831.26 23007.3"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="416.163mm" height="242.883mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 35578.39 20764.41"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#4D4D4D}
+    .fil0 {fill:#E6E6E6}
    ]]>
   </style>
  </defs>
  <g id="Conteúdo_x0020_do_x0020_PowerClip">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <circle class="fil0" cx="11110.88" cy="4542.02" r="59.04"/>
-  <ellipse class="fil0" cx="12784.85" cy="3663.59" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 11444.7 3719.82)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 -0.00650983 0.00208851 0.0030322 11943.4 4211.87)" r="1798.43"/>
-  <ellipse class="fil0" cx="11964.32" cy="803.53" rx="87.62" ry="28.11"/>
-  <circle class="fil0" cx="14139.06" cy="11643.09" r="59.04"/>
-  <circle class="fil0" cx="7168.52" cy="1484.86" r="59.04"/>
-  <ellipse class="fil0" cx="6315.08" cy="1866.32" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 -0.0276381 -0.00886704 0.0128735 6834.7 662.655)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(-0.00945121 -0.00650983 -0.00208851 0.0030322 6335.94 1154.71)" r="1798.43"/>
-  <circle class="fil0" cx="1856.8" cy="7882" r="59.04"/>
-  <circle class="fil0" transform="matrix(-0.0401263 -0.0276381 -0.00886704 0.0128735 1522.99 7059.8)" r="1798.43"/>
-  <ellipse class="fil0" cx="10453.48" cy="12237" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 9113.32 12293.2)" r="1798.43"/>
-  <ellipse class="fil0" cx="7424.02" cy="4113.73" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 6083.86 4169.94)" r="1798.43"/>
-  <ellipse class="fil0" cx="14702.73" cy="8513.09" rx="87.62" ry="28.11"/>
-  <ellipse class="fil0" cx="29773.1" cy="11178.01" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.00945121 -0.00650983 0.00208851 0.0030322 30584.1 7720.1)" r="1798.43"/>
-  <circle class="fil0" cx="31221.06" cy="15244.96" r="59.04"/>
-  <ellipse class="fil0" cx="29733.13" cy="1566.61" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 26394.2 13574.8)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 -0.00650983 0.00208851 0.0030322 29712.3 855.005)" r="1798.43"/>
-  <circle class="fil0" cx="15262.14" cy="22430.02" r="59.04"/>
-  <ellipse class="fil0" cx="30245.91" cy="22124.85" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 15595.9 21607.8)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 -0.00650983 0.00208851 0.0030322 29404.4 22673.1)" r="1798.43"/>
-  <ellipse class="fil0" cx="29425.39" cy="19264.78" rx="87.62" ry="28.11"/>
-  <circle class="fil0" cx="31246.21" cy="5579.03" r="59.04"/>
-  <circle class="fil0" cx="14139.06" cy="6161.05" r="59.04"/>
-  <ellipse class="fil0" cx="13285.62" cy="6542.51" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 -0.0276381 -0.00886704 0.0128735 13805.2 5338.84)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(-0.00945121 -0.00650983 -0.00208851 0.0030322 13306.6 5830.9)" r="1798.43"/>
-  <circle class="fil0" cx="8827.34" cy="12558.19" r="59.04"/>
-  <circle class="fil0" transform="matrix(-0.0401263 -0.0276381 -0.00886704 0.0128735 8493.52 11736)" r="1798.43"/>
-  <ellipse class="fil0" cx="16592.21" cy="19659.5" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 15252.1 19715.7)" r="1798.43"/>
-  <ellipse class="fil0" cx="14394.55" cy="8789.9" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 13054.5 8846.14)" r="1798.43"/>
-  <ellipse class="fil0" cx="34151.25" cy="16508.83" rx="87.62" ry="28.11"/>
-  <ellipse class="fil0" cx="36743.64" cy="15854.2" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.00945121 -0.00650983 0.00208851 0.0030322 36722.7 15142.5)" r="1798.43"/>
-  <circle class="fil0" cx="35850.22" cy="5861.34" r="59.04"/>
-  <ellipse class="fil0" cx="36703.67" cy="6242.8" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 36184.1 5039.13)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 -0.00650983 0.00208851 0.0030322 36682.8 5531.2)" r="1798.43"/>
-  <circle class="fil0" cx="3769.61" cy="8075.23" r="59.04"/>
-  <ellipse class="fil0" cx="2095.64" cy="8953.64" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 0.0276381 -0.00886704 -0.0128735 3435.77 8897.42)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(-0.00945121 0.00650983 -0.00208851 -0.0030322 2937.06 8405.36)" r="1798.43"/>
-  <ellipse class="fil0" cx="2916.16" cy="11813.7" rx="87.62" ry="28.11"/>
-  <circle class="fil0" cx="741.42" cy="974.14" r="59.04"/>
-  <circle class="fil0" cx="7711.96" cy="11132.38" r="59.04"/>
-  <ellipse class="fil0" cx="8565.4" cy="10750.93" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 0.0276381 0.00886704 -0.0128735 8045.78 11954.6)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 0.00650983 0.00208851 -0.0030322 8544.54 11462.5)" r="1798.43"/>
-  <circle class="fil0" cx="13023.69" cy="4735.24" r="59.04"/>
-  <circle class="fil0" transform="matrix(0.0401263 0.0276381 0.00886704 -0.0128735 13357.4 5557.43)" r="1798.43"/>
-  <ellipse class="fil0" cx="4427" cy="380.24" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 0.0276381 -0.00886704 -0.0128735 5767.16 324.002)" r="1798.43"/>
-  <ellipse class="fil0" cx="7456.46" cy="8503.52" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 0.0276381 -0.00886704 -0.0128735 8796.62 8447.29)" r="1798.43"/>
-  <ellipse class="fil0" cx="177.75" cy="4104.16" rx="87.62" ry="28.11"/>
-  <circle class="fil0" cx="741.42" cy="6456.2" r="59.04"/>
-  <ellipse class="fil0" cx="1594.87" cy="6074.74" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 0.0276381 0.00886704 -0.0128735 1075.28 7278.4)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 0.00650983 0.00208851 -0.0030322 1573.99 6786.35)" r="1798.43"/>
-  <circle class="fil0" cx="6053.15" cy="59.04" r="59.04"/>
-  <circle class="fil0" transform="matrix(0.0401263 0.0276381 0.00886704 -0.0128735 6386.97 881.235)" r="1798.43"/>
-  <ellipse class="fil0" cx="485.95" cy="3827.33" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 0.0276381 -0.00886704 -0.0128735 1826.05 3771.1)" r="1798.43"/>
-  <ellipse class="fil0" cx="3084.64" cy="22627.06" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 -0.0276381 0.00886704 0.0128735 1744.48 22683.2)" r="1798.43"/>
-  <circle class="fil0" cx="1458.49" cy="22948.26" r="59.04"/>
-  <circle class="fil0" transform="matrix(-0.0401263 -0.0276381 -0.00886704 0.0128735 1124.67 22126.1)" r="1798.43"/>
-  <circle class="fil0" cx="343.12" cy="21522.44" r="59.04"/>
-  <ellipse class="fil0" cx="1196.56" cy="21140.98" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(0.0401263 0.0276381 0.00886704 -0.0128735 676.927 22344.6)" r="1798.43"/>
-  <circle class="fil0" transform="matrix(0.00945121 0.00650983 0.00208851 -0.0030322 1175.69 21852.6)" r="1798.43"/>
-  <ellipse class="fil0" cx="87.62" cy="18893.57" rx="87.62" ry="28.11"/>
-  <circle class="fil0" transform="matrix(-0.0401263 0.0276381 -0.00886704 -0.0128735 1427.78 18837.4)" r="1798.43"/>
+  <ellipse class="fil0" cx="5458.78" cy="3507.57" rx="12.6" ry="19.18"/>
+  <ellipse class="fil0" cx="20896.01" cy="2031.15" rx="12.6" ry="19.18"/>
+  <ellipse class="fil0" cx="12594.42" cy="8189.91" rx="12.6" ry="19.18"/>
+  <ellipse class="fil0" cx="4734.1" cy="14353.41" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="35562.68" cy="17907.16" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="22019.06" cy="12586.84" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="3705.55" cy="5749.15" rx="32.52" ry="49.53"/>
+  <ellipse class="fil0" cx="34534.13" cy="9302.91" rx="32.52" ry="49.53"/>
+  <ellipse class="fil0" cx="23047.61" cy="3982.58" rx="32.52" ry="49.53"/>
+  <ellipse class="fil0" cx="19142.78" cy="4272.73" rx="32.52" ry="49.53"/>
+  <ellipse class="fil0" cx="10841.19" cy="10431.49" rx="32.52" ry="49.53"/>
+  <ellipse class="fil0" cx="2547.64" cy="17148.89" rx="40.56" ry="61.77"/>
+  <ellipse class="fil0" cx="33376.21" cy="20702.64" rx="40.56" ry="61.77"/>
+  <ellipse class="fil0" cx="24205.53" cy="15382.32" rx="40.56" ry="61.77"/>
+  <ellipse class="fil0" cx="13035.7" cy="15534.11" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="21592" cy="14444.58" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="27986.69" cy="5457.48" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="34381.38" cy="18627.32" rx="15.71" ry="23.93"/>
+  <ellipse class="fil0" cx="10849.23" cy="12738.63" rx="40.56" ry="61.77"/>
+  <ellipse class="fil0" cx="19324.42" cy="11618.22" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="14122.34" cy="2880.7" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="5511.94" cy="8139.84" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="4749.81" cy="11587.34" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="11043.74" cy="19056.26" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="33839.43" cy="1981.08" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="32113.8" cy="30.88" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="16077.18" cy="92.65" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="40.56" cy="154.41" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="24124.41" cy="18542.9" rx="40.56" ry="30.88"/>
+  <ellipse class="fil0" cx="25800.23" cy="2662" rx="40.56" ry="61.77"/>
+  <ellipse class="fil0" cx="32194.92" cy="15831.84" rx="40.56" ry="61.77"/>
  </g>
 </svg>

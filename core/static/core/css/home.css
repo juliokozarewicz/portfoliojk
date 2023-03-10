@@ -111,36 +111,48 @@ body section .homediv .meta-art .trr {
 }
 
 body section .shooting-star {
-    width: 1vh;
-    height: 1vh;
-    background-color: red;
     border-radius: 50%;
     position: absolute;
     top: 3vh;
-    left: 10vh;
+    left: 30vh;
+    transform-origin: left center;
+    animation: 2s shooting-star 1s infinite;
 }
 
 body section .shooting-star::before {
     content: "";
-    width: 1vh;
-    height: 1vh;
-    background-color: red;
     border-radius: 50%;
     position: absolute;
     top: 40vh;
     left: 60vh;
+    animation: 5s shooting-star infinite;
 }
 
 body section .shooting-star::after {
     content: "";
-    width: 1vh;
-    height: 1vh;
-    background-color: red;
     border-radius: 50%;
     position: absolute;
-    top: 2vh;
-    left: 180vh;
+    top: 0vh;
+    left: 160vh;
+    animation: 2s shooting-star infinite;
 }
+
+@keyframes shooting-star {
+
+    from {
+        background-color: white;
+        width: 0.1vh;
+        height: 0.4vh;
+    }
+
+    to {
+        background-color: white;
+        width: 0.1vh;
+        height: 50vh;
+        opacity: 0%;
+    }
+    
+  }
 
 body .paralax {
     width: 100%;
@@ -150,8 +162,6 @@ body .paralax {
     display: flex;
     justify-content: center;
     align-items: center;
-    -moz-animation:paralax 25s linear infinite;	
-	-webkit-animation:paralax 25s linear infinite;
 }
 
 body .moon { 

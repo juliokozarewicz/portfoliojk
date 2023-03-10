@@ -1,13 +1,13 @@
 @import url("colors.css");
 
 @font-face {
-	font-family: 'adam-bold';
-	src: url('../fonts/adam-bold.ttf') format('truetype');
+	font-family: 'title';
+	src: url('../fonts/title.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'nexa-bold';
-	src: url('../fonts/nexa-bold.ttf') format('truetype');
+	font-family: 'text';
+	src: url('../fonts/text.ttf') format('truetype');
 }
 
 * {

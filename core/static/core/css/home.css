@@ -45,7 +45,7 @@ body section .homediv .social {
     width: 10vh;
     height: 36vh;
     font-size: 10vh;
-    font-family: nexa-bold;
+    font-family: title;
     position: fixed;
     bottom: 0vh;
     left: 4vh;
@@ -73,28 +73,28 @@ body section .homediv .social .linev-bottom {
 }
 
 body section .homediv .title {
-    font-size: 8vh;
-    font-family: nexa-bold;
+    font-size: 7vh;
+    font-family: title;
     position: fixed;
-    bottom: 26.7vh;
+    bottom: 28.5vh;
     left: 20vh;
     color: var(--white-std);
 }
 
 body section .homediv .sub-title {
-    font-size: 2.9vh;
-    font-family: adam-bold;
+    font-size: 2.6vh;
+    font-family: text;
     position: fixed;
     bottom: 21vh;
     left: 20vh;
-    color: var(--purple-std);
+    color: var(--red-std2);
 }
 
 body section .homediv .meta-art {
-    font-size: 2.5vh;
-    font-family: adam-bold;
+    font-size: 2vh;
+    font-family: text;
     position: fixed;
-    bottom: 4.1vh;
+    bottom: 4.5vh;
     left: 20vh;
 }
 
@@ -118,13 +118,15 @@ body .paralax {
     display: flex;
     justify-content: center;
     align-items: center;
+    -moz-animation:paralax 25s linear infinite;	
+	-webkit-animation:paralax 25s linear infinite;
 }
 
-body .layer { 
-    width: 16vh;
+body .moon { 
+    width: 18vh;
     position: absolute;
-    bottom: 60vh;
-    left: 80%;
+    bottom: 70vh;
+    left: 62%;
 }
 
 body .layer2 { 
@@ -132,3 +134,61 @@ body .layer2 {
     height: 100vh;
     position: absolute;
 }
+
+body section .rocket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 45vh;
+    left: 60%;
+    transform: rotate(-10deg);
+}
+
+body section .rocket .rocket-body {
+    height: 10vh;
+    position: absolute;
+    top: -14vh;
+    left: 0.9vh;
+}
+
+body section .rocket .fire-red {
+    height: 8vh;
+    position: absolute;
+    animation: 0.3s size-fire-red infinite;
+}
+
+@keyframes size-fire-red {
+
+    from {
+        width: 2vh;
+    }
+
+    to {
+        width: 12vh;
+        height: 11vh;
+        opacity: 10%;
+    }
+    
+  }
+
+body section .rocket .fire-orange {
+    height: 5vh;
+    position: absolute;
+    top: -4vh;
+    right: -3vh;
+    animation: 0.2s size-fire-orange infinite;
+}
+
+@keyframes size-fire-orange {
+
+    from {
+        width: 0.5vh;
+    }
+
+    to {
+        width: 5vh;
+        opacity: 30%;
+    }
+    
+  }

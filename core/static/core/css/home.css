@@ -110,6 +110,38 @@ body section .homediv .meta-art .trr {
     color: var(--purple-std);
 }
 
+body section .shooting-star {
+    width: 1vh;
+    height: 1vh;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 3vh;
+    left: 10vh;
+}
+
+body section .shooting-star::before {
+    content: "";
+    width: 1vh;
+    height: 1vh;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 40vh;
+    left: 60vh;
+}
+
+body section .shooting-star::after {
+    content: "";
+    width: 1vh;
+    height: 1vh;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 2vh;
+    left: 180vh;
+}
+
 body .paralax {
     width: 100%;
     height: 100vh;

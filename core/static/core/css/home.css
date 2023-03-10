@@ -142,7 +142,7 @@ body section .rocket {
     position: absolute;
     bottom: 45vh;
     left: 60%;
-    transform: rotate(-10deg);
+    transform: rotate(-8deg);
 }
 
 body section .rocket .rocket-body {

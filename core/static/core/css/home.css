@@ -140,9 +140,9 @@ body section .rocket {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 45vh;
-    left: 60%;
-    transform: rotate(-8deg);
+    bottom: 30vh;
+    left: 50%;
+    transform: rotate(2deg);
 }
 
 body section .rocket .rocket-body {

@@ -1,8 +1,9 @@
-<!DOCTYPE html>
 {% load static %}
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>JULIO KOZAREWICZ</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,16 @@
     <link rel="stylesheet" href="{% static '/core/css/base.css' %}">
 	<link rel="shortcut icon" type="image/x-icon" href="{% static '/core/images/favicon.svg' %}">
 	<script src="{% static '/core/js/base.js' %}"></script>
+    {% block htmlhead %}
+        <title>JULIO KOZAREWICZ</title>
+    {% endblock htmlhead %}
 </head>
 
-<body onload="new loadPage('home', 'id-load-content')">
+<body onload="paralax_img(), paralax_div()">
     <section class="content">
-        <section class="load-content" id="id-load-content"></section>
-        <nav>
-        </nav>
+        {% block content %}
+    	{% endblock %}
     </section>
 </body>
+
 </html>

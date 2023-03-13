@@ -1,43 +1,22 @@
-
-window.sessionStorage.clear();
-
-
-function loadPage(pg_load, id_replaced) {
-    var pg_load = pg_load
-    var id_replaced = id_replaced
-    var url = ''+ pg_load +''
-
-    var xml = new XMLHttpRequest()
-
-    xml.onreadystatechange = function () {
-
-        if (xml.readyState == 4 && xml.status == 200) {
-
-            document.getElementById(id_replaced).innerHTML = xml.responseText
-        
-        }
-
-    }
-
-    xml.open("GET", url, true)
-
-    xml.send()
-
-}
-
-function unloadPage(pg_unload) {
-
-    var element = document.getElementById(pg_unload);
-
-    element.style.display = "none";
-
-}
-
-function paralax() {
+function paralax_img() {
 
     document.addEventListener("mousemove", parallax);
     function parallax(event) {
     this.querySelectorAll(".paralax img").forEach((shift) => {
+        const position = shift.getAttribute("value");
+        const x = (window.innerWidth - event.pageX * position) / 90;
+        const y = (window.innerHeight - event.pageY * position) / 90;
+
+        shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    });
+    }
+}
+
+function paralax_div() {
+
+    document.addEventListener("mousemove", parallax);
+    function parallax(event) {
+    this.querySelectorAll(".paralax div").forEach((shift) => {
         const position = shift.getAttribute("value");
         const x = (window.innerWidth - event.pageX * position) / 90;
         const y = (window.innerHeight - event.pageY * position) / 90;
